@@ -1,0 +1,64 @@
+.item {
+  width: 500px;
+  color: black;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.itemname {
+  font-weight: bold;
+  padding: 20px;
+}
+.line {
+  border: 1px solid #f4f4f4;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+/* .deletebutton {
+  float: right;
+  padding: 12px 20px;
+  border: none;
+  background-color: rgb(152, 106, 236);
+  cursor: pointer;
+  color: white;
+  margin-top: -5px;
+  border-radius: 4px;
+}
+.editbutton {
+  float: right;
+  padding: 12px 20px;
+  border: none;
+  background-color: rgb(152, 106, 236);
+  cursor: pointer;
+  color: white;
+  margin-top: -5px;
+  border-radius: 4px;
+} */
+
+.deletebutton,
+.editbutton {
+  float: right;
+  padding: 8px 12px;
+  border: none;
+  background-color: rgb(152, 106, 236);
+  cursor: pointer;
+  color: white;
+  margin-top: -5px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+.deletebutton:hover,
+.editbutton:hover {
+  background-color: #9548f1;
+}
+
+.editInput {
+  width: 70%;
+  border: none;
+  height: 50px;
+  font-size: 20px;
+}
